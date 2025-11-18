@@ -102,3 +102,6 @@ display: flex
    align-items: center;
    justify-content: center;
 }
+.f-w{
+   width: 100%;
+}
