@@ -84,3 +84,13 @@ display: flex
 .br4{
    border-radius: 1rem;
 }
+.fcac{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+.relative{
+   position: relative;
+}
