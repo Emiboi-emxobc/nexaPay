@@ -34,9 +34,9 @@
             <span class="fas fa-shopping-cart"></span>
          </div>
       </div>
-      <div class="frac f-w relative">
-         <span class="fas fa-search ab"></span>
-         <input type="search"id="search-bar-m"class="p2 br4 "placeholder=" Search for products">
+      <div class=" relative search-bar">
+         <span class="fas fa-search  search-icon"data-role="nav"data-target="search-bar-m"></span>
+         <input type="search"id="search-bar-m"class=" search-input  "placeholder=" Search for products">
       </div>
    </header>
    <main>
@@ -46,6 +46,29 @@
          </div>
       </section>
    </main>
+   <style type="text/css" media="all">
+      .search-bar{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+        
+      }
+      .search-icon{
+         position: absolute;
+         top: 50%;
+         transform : translate(-50%,-50%);
+         right: 1rem;
+         font-size: 1.3rem;
+      }
+      .search-input{
+          padding: 0.6rem 1rem;
+          outline: none;
+          background: transparent;
+          border: 1px solid var(--highlight);
+          border-radius: 20px;
+      }
+   </style>
 </body>
 
 </html>

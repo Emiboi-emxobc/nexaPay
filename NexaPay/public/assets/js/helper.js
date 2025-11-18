@@ -1,3 +1,6 @@
+
+
+
 export function edit(target) {
   const id = $(target);
   if (id) {
@@ -14,3 +17,27 @@ export function switchClass(el,from,to) {
     to ${to}`)
   }
 }
+
+
+export function showPage(id) {
+  if (!id) return;
+
+  // hide all pages
+  document.querySelectorAll(".page").forEach((p) => {
+    p.classList.remove("active");
+  });
+
+  // show target page
+  const target = document.getElementById(id);
+  if (target) {
+    target.classList.add("active");
+  }
+
+  // update nav buttons (data-role="nav", data-target matches id)
+  document.querySelectorAll("[data-role='nav']").forEach((btn) => {
+    const tgt = btn.getAttribute("data-target");
+    if (tgt === id) btn.classList.add("active");
+    else btn.classList.remove("active");
+  });
+}
+
