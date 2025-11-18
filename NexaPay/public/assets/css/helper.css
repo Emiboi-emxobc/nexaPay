@@ -94,3 +94,11 @@ display: flex
 .relative{
    position: relative;
 }
+.ab{
+   position: absolute;
+}
+.frac{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
