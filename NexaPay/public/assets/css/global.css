@@ -12,7 +12,7 @@ body{
 .card{
    background: var(--card);
    padding: 1rem;
-   border-radius: 1rem;
+   
 }
 .dashboard{
    margin: 1rem;
