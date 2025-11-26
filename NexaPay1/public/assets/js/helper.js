@@ -1,6 +1,4 @@
-import {
-  $,$$,_$,on
-} from './dom.js';
+
 
 
 export function edit(target) {
@@ -43,11 +41,3 @@ export function showPage(id) {
   });
 }
 
- export function dot(dots,con = document.body){
-  const dE = _$("div",{className:"dot-con"});
-  dots.forEach((dot) =>{
-    const d = _$("div",{className:"dot"});
-    dE.appendChild(d);
-  })
-  con.appendChild(dE)
-}

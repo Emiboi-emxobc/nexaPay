@@ -2,9 +2,6 @@
    padding: 1rem;
    box-sizing: border-box;
 }
-.p8{
-   padding: 2rem;
-}
 .g4{
    gap: 1rem;
 }
@@ -97,15 +94,8 @@ display: flex
 .relative{
    position: relative;
 }
-.card{
-   padding: 0.6rem 1rem;
-}
 .ab{
    position: absolute;
-}
-.fe{
-   display: flex;
-   justify-content: flex-end;
 }
 .frac{
    display: flex;
@@ -137,38 +127,10 @@ display: flex
          right: 1rem;
          font-size: 1.3rem;
 }
-.uppercase{
-   text-transform: uppercase;
-}
 .search-input{
    padding: 0.6rem 1rem;
    outline: none;
    background: transparent;
    border: 1px solid var(--highlight);
           border-radius: 20px;
-}
-hr{
-   color: var(--mini-card);
-   border: 1px solid;
-   margin: 1.3rem 0.2rem;
-}
-.dot{
-   width: 10px;
-   height: 10px;
-   border-radius: 50%;
-   background: var(--discount);
-   border: 1px solid var(--highlight);
-   
-}
-.hidden{
-   display: none;
-}
-.dot-con{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 1rem;
-   position: relative;
-   
-   
 }
